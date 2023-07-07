@@ -10,7 +10,7 @@ int y = int.Parse(Console.ReadLine());
 if (x == 0 || y == 0)
 {
   Console.WriteLine("Недопустимые координаты X и Y != 0");
-  return;
+  Environment.Exit(0);
 }
 
 if (x > 0 && y > 0)
